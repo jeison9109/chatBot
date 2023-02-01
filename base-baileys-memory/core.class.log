@@ -1,0 +1,124 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007256871@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0B3F685D823A22A3E',
+    participant: undefined
+  },
+  messageTimestamp: 1675226032,
+  pushName: 'Yeison Serna',
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '573007256871'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007256871@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB015372E84AB4AE6C6',
+    participant: undefined
+  },
+  messageTimestamp: 1675226035,
+  pushName: 'Yeison Serna',
+  message: Message {
+    conversation: '123',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '123',
+  from: '573007256871'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007256871@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03A51789C855F8D2F',
+    participant: undefined
+  },
+  messageTimestamp: 1675226039,
+  pushName: 'Yeison Serna',
+  message: Message {
+    conversation: 'churros',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'churros',
+  from: '573007256871'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007256871@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB002D6087D5547242E',
+    participant: undefined
+  },
+  messageTimestamp: 1675226043,
+  pushName: 'Yeison Serna',
+  message: Message {
+    conversation: 'alarmar',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'alarmar',
+  from: '573007256871'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007256871@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0074AA48D42B13590',
+    participant: undefined
+  },
+  messageTimestamp: 1675226088,
+  pushName: 'Yeison Serna',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-0',
+      selectedDisplayText: 'POC CERRADO',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'POC CERRADO',
+  from: '573007256871'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007256871@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03836E83AEFB984F6',
+    participant: undefined
+  },
+  messageTimestamp: 1675226094,
+  pushName: 'Yeison Serna',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-2',
+      selectedDisplayText: 'MAQUINA TRASLADADA',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'MAQUINA TRASLADADA',
+  from: '573007256871'
+}
