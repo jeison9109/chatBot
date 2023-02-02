@@ -9,20 +9,37 @@ const QRPortalWeb = require("@bot-whatsapp/portal");
 const BaileysProvider = require("@bot-whatsapp/provider/baileys");
 const MockAdapter = require("@bot-whatsapp/database/mock");
 
-const flowSecundario = addKeyword(["2", "siguiente"]).addAnswer([
-  "📄 Aquí tenemos el flujo secundario",
-]);
+const flowMachineAlarmOperation = addKeyword([
+  "Alarma por operación",
+]).addAnswer(["Por favor seleccione el tipo de *alarma*"], {
+  buttons: [
+    { body: "📴  APAGADA EXHIBIDA" },
+    { body: "📴  APAGADA ALMACENADA" },
+    { body: "🔧  REPUESTO PENDIENTE" },
+  ],
+});
 
-const flujoMachineAlarm = addKeyword(["alarmar", "alarma", "alarm"]).addAnswer(
+const flowMachineAlarmLocation = addKeyword([
+  "Alarma por localización",
+]).addAnswer(["Por favor seleccione el tipo de *alarma*"], {
+  buttons: [
+    { body: "❓  MAQUINA NO ESTA EN EL POC" },
+    { body: "💥 MAQUINA PERDIDA" },
+    { body: "🚫 NO PERMITEN INGRESO" },
+    { body: "❌ POC CERRADO" },
+  ],
+});
+
+const flujoMachineAlarm = addKeyword(["alarmar"]).addAnswer(
   ["Por favor seleccione el tipo de *alarma*: "],
   {
     buttons: [
-      { body: "POC CERRADO" },
-      { body: "MAQUINA NO ESTA EN EL POC" },
-      { body: "MAQUINA TRASLADADA" },
-      { body: "APAGADA EXHIBIDA" },
-      { body: "APAGADA ALMACENADA" },
-      { body: "NO PERMITEN INGRESO" },
+      { body: "🚨 Alarma por localización" },
+      { body: "🚨 Alarma por operación" },
+      // { body: "MAQUINA TRASLADADA" },
+      // { body: "APAGADA EXHIBIDA" },
+      // { body: "APAGADA ALMACENADA" },
+      // { body: "NO PERMITEN INGRESO" },
     ],
   }
 );
@@ -80,7 +97,12 @@ const flowFormulario = addKeyword(["Hola", "ole", "buenas"])
 
 const main = async () => {
   const adapterDB = new MockAdapter();
-  const adapterFlow = createFlow([flowFormulario, flujoMachineAlarm]);
+  const adapterFlow = createFlow([
+    flowFormulario,
+    flujoMachineAlarm,
+    flowMachineAlarmLocation,
+    flowMachineAlarmOperation,
+  ]);
   const adapterProvider = createProvider(BaileysProvider);
 
   createBot({

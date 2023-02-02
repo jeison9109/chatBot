@@ -2,10 +2,10 @@
   key: {
     remoteJid: '573007256871@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0B3F685D823A22A3E',
+    id: '3EB01634505444E47888',
     participant: undefined
   },
-  messageTimestamp: 1675226032,
+  messageTimestamp: 1675307167,
   pushName: 'Yeison Serna',
   message: Message {
     conversation: 'hola',
@@ -21,10 +21,10 @@
   key: {
     remoteJid: '573007256871@s.whatsapp.net',
     fromMe: false,
-    id: '3EB015372E84AB4AE6C6',
+    id: '3EB0795C7993207C0E82',
     participant: undefined
   },
-  messageTimestamp: 1675226035,
+  messageTimestamp: 1675307169,
   pushName: 'Yeison Serna',
   message: Message {
     conversation: '123',
@@ -40,10 +40,10 @@
   key: {
     remoteJid: '573007256871@s.whatsapp.net',
     fromMe: false,
-    id: '3EB03A51789C855F8D2F',
+    id: '3EB06787E55A37DC9274',
     participant: undefined
   },
-  messageTimestamp: 1675226039,
+  messageTimestamp: 1675307173,
   pushName: 'Yeison Serna',
   message: Message {
     conversation: 'churros',
@@ -59,10 +59,10 @@
   key: {
     remoteJid: '573007256871@s.whatsapp.net',
     fromMe: false,
-    id: '3EB002D6087D5547242E',
+    id: '3EB007E33CE4D4F84F8C',
     participant: undefined
   },
-  messageTimestamp: 1675226043,
+  messageTimestamp: 1675307178,
   pushName: 'Yeison Serna',
   message: Message {
     conversation: 'alarmar',
@@ -78,10 +78,34 @@
   key: {
     remoteJid: '573007256871@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0074AA48D42B13590',
+    id: '3EB09398876F9851BAD3',
     participant: undefined
   },
-  messageTimestamp: 1675226088,
+  messageTimestamp: 1675307182,
+  pushName: 'Yeison Serna',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: '🚨 Alarma por operación',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: '🚨 Alarma por operación',
+  from: '573007256871'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007256871@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0389516E50F70C119',
+    participant: undefined
+  },
+  messageTimestamp: 1675307223,
   pushName: 'Yeison Serna',
   message: Message {
     messageContextInfo: MessageContextInfo {
@@ -90,22 +114,46 @@
     },
     buttonsResponseMessage: ButtonsResponseMessage {
       selectedButtonId: 'id-btn-0',
-      selectedDisplayText: 'POC CERRADO',
+      selectedDisplayText: '📴  APAGADA EXHIBIDA',
       contextInfo: [ContextInfo],
       type: 1
     }
   },
-  body: 'POC CERRADO',
+  body: '📴  APAGADA EXHIBIDA',
   from: '573007256871'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573007256871@s.whatsapp.net',
     fromMe: false,
-    id: '3EB03836E83AEFB984F6',
+    id: '3EB085A7881860C9D173',
     participant: undefined
   },
-  messageTimestamp: 1675226094,
+  messageTimestamp: 1675307225,
+  pushName: 'Yeison Serna',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-1',
+      selectedDisplayText: '📴  APAGADA ALMACENADA',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: '📴  APAGADA ALMACENADA',
+  from: '573007256871'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573007256871@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB005EA4FB602D422B3',
+    participant: undefined
+  },
+  messageTimestamp: 1675307226,
   pushName: 'Yeison Serna',
   message: Message {
     messageContextInfo: MessageContextInfo {
@@ -114,11 +162,11 @@
     },
     buttonsResponseMessage: ButtonsResponseMessage {
       selectedButtonId: 'id-btn-2',
-      selectedDisplayText: 'MAQUINA TRASLADADA',
+      selectedDisplayText: '🔧  REPUESTO PENDIENTE',
       contextInfo: [ContextInfo],
       type: 1
     }
   },
-  body: 'MAQUINA TRASLADADA',
+  body: '🔧  REPUESTO PENDIENTE',
   from: '573007256871'
 }
